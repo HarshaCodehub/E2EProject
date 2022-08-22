@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 2, Errors: 0, Skipped: 6, Time elapsed: 23.703 s <<< FAILURE! - in TestSuite
+initialize(FirstProject.HomePage)  Time elapsed: 20.731 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "String.contains(java.lang.CharSequence)" because "browserName" is null
+	at FirstProject.HomePage.initialize(HomePage.java:25)
+
+initialize(FirstProject.ValidateTitle)  Time elapsed: 20.733 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "String.contains(java.lang.CharSequence)" because "browserName" is null
+	at FirstProject.ValidateTitle.initialize(ValidateTitle.java:27)
+
